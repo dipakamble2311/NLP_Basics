@@ -27,7 +27,7 @@ NLP is mandatory for follwing application :
 ### sentence tokenization
     sent = sent_tokenize(text_data)
 ### word tokenization
-tokens = word_tokenize(text_data)
+    tokens = word_tokenize(text_data)
 ### whitespace tokenization
     tokens = WhitespaceTokenizer().tokenize(text_data)
 ### Normalization
